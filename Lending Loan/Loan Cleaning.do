@@ -10,7 +10,7 @@ clear all
 *-------------------------------------------------------------------------------
 {
 * Loading the data
-cd "C:\Users\Cyrus Muriithi\Desktop\Random Programming\Lending_Loan"
+cd "C:\Users\ch\Desktop\Random Programming\Lending_Loan"
 
 import delimited "lending_club_loans.csv"
 drop if id =="Loans that do not meet the credit policy" | id==""
